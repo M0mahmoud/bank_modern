@@ -1,5 +1,15 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Business,
+  Billing,
+  CardDeal,
+  Testimonials,
+  Clients,
+  CTA,
+  Footer,
+} from "./components";
 import styles from "./style";
 
 function App() {
@@ -20,14 +30,14 @@ function App() {
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            Stats <br />
-            Business <br />
-            Billing <br />
-            CardDeal <br />
-            Testimonials <br />
-            Clients <br />
-            CTA <br />
-            Footer <br />
+            <Stats />
+            <Business />
+            <Billing />
+            <CardDeal />
+            <Testimonials />
+            <Clients />
+            <CTA />
+            <Footer />
           </div>
         </div>
       </div>
