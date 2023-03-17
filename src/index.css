@@ -118,6 +118,11 @@
 
 .feedback-card {
   background: transparent;
+  transition: background .4s;
+  -webkit-transition: background .4s;
+  -moz-transition: background .4s;
+  -ms-transition: background .4s;
+  -o-transition: background .4s;
 }
 
 .feedback-card:hover {
