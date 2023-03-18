@@ -12,7 +12,7 @@ const Navbar = () => {
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white transition-colors hover:text-teal-300 ${
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-white transition-colors hover:text-secondary ${
               index === navLinks.length - 1 ? "mr-0 " : "mr-10 "
             }`}
             key={nav.id}
